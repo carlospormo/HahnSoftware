@@ -1,4 +1,4 @@
-namespace Hann.Software.Web
+namespace Hahn.Software.Web
 {
     public class WeatherForecast
     {
