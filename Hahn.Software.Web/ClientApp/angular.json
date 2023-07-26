@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Hann.Software.Web": {
+    "Hahn.Software.Web": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Hann.Software.Web:build:production"
+              "browserTarget": "Hahn.Software.Web:build:production"
             },
             "development": {
-              "browserTarget": "Hann.Software.Web:build:development",
+              "browserTarget": "Hahn.Software.Web:build:development",
               "proxyConfig": "proxy.conf.js"
             }
           },
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Hann.Software.Web:build"
+            "browserTarget": "Hahn.Software.Web:build"
           }
         },
         "test": {
@@ -129,5 +129,5 @@
       }
     }
   },
-  "defaultProject": "Hann.Software.Web"
+  "defaultProject": "Hahn.Software.Web"
 }

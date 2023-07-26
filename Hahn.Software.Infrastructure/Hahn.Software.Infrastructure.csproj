@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.3.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.9">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
@@ -19,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hann.Software.Domain\Hahn.Software.Domain.csproj" />
+    <ProjectReference Include="..\Hahn.Software.Domain\Hahn.Software.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

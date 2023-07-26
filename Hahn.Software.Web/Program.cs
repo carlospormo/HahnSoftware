@@ -1,5 +1,4 @@
 using Hahn.Software.Infrastructure;
-using Hann.Software.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +9,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<BooksDbContext>(opts =>
 {
     opts.UseSqlServer(builder.Configuration["ConnectionStrings:ApplicationConnectionString"],
-        x => x.MigrationsAssembly("Hann.Software.Infrastructure"));
+        x => x.MigrationsAssembly("Hahn.Software.Infrastructure"));
 });
 
 var app = builder.Build();

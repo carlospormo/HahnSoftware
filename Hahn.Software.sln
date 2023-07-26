@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.Software.Web", "Hann.Software.Web\Hahn.Software.Web.csproj", "{576C987E-7E2C-4985-A70A-19F1748FEB81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.Software.Web", "Hahn.Software.Web\Hahn.Software.Web.csproj", "{576C987E-7E2C-4985-A70A-19F1748FEB81}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.Software.Domain", "Hann.Software.Domain\Hahn.Software.Domain.csproj", "{4A784556-9A89-479A-99E9-9536461C2C9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.Software.Domain", "Hahn.Software.Domain\Hahn.Software.Domain.csproj", "{4A784556-9A89-479A-99E9-9536461C2C9E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.Software.Infrastructure", "Hann.Software.Infrastructure\Hahn.Software.Infrastructure.csproj", "{DB320B11-10ED-4731-9CDF-4D0513E73BAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hahn.Software.Infrastructure", "Hahn.Software.Infrastructure\Hahn.Software.Infrastructure.csproj", "{DB320B11-10ED-4731-9CDF-4D0513E73BAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
