@@ -26,7 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hahn.Software.Domain\Hahn.Software.Domain.csproj" />
     <ProjectReference Include="..\Hahn.Software.Infrastructure\Hahn.Software.Infrastructure.csproj" />
   </ItemGroup>
 
